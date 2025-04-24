@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Periquito's game</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div style="text-align: center; margin-top: 20px;">
+    <img id="coupleImg" src="couple.png" alt="Imagem de um casal" style="max-width: 90%; height: auto;">
+  </div>
+  <h1>Amo você</h1>
+  <button id="startBtn">Play</button>
+  <canvas id="gameCanvas" width="800" height="400" style="display:none;"></canvas>
+  <div id="scoreCounter" style="display:none;">Corações: 0</div>
+  <div id="gameOverContainer" style="display:none;">
+   
+    <p>Você poderá trocar os corações coletados por beijos.</p>
+    <button id="retryBtn">Tentar novamente</button>
+    <button id="convertBtn">Converter para prêmio</button>
+  </div>
+  <script src="joga.js"></script>
+</body>
+</html>
